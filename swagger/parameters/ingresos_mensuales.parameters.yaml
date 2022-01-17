@@ -1,0 +1,15 @@
+parameters:
+  ingresosMensualesPostModel:
+    in: body
+    name: body
+    description: Ejemplo de body para guardar un ingreso mensual
+    required: true
+    schema:
+      $ref: "#/definitions/ingresosMensualesPost"
+  ingresosMensualesPutModel:
+    in: body
+    name: body
+    description: Ejemplo de body para actualizar un ingreso mensual
+    required: true
+    schema:
+      $ref: "#/definitions/ingresosMensualesPut"

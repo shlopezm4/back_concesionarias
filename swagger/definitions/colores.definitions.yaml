@@ -1,0 +1,15 @@
+definitions:
+  coloresPost:
+    type: object
+    properties:
+      nombre:
+        type: string
+      descripcion:
+        type: string
+  coloresPut:
+    type: object
+    properties:
+      nombre:
+        type: string
+      descripcion:
+        type: string

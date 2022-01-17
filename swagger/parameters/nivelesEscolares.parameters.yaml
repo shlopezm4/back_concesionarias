@@ -1,0 +1,15 @@
+parameters:
+  nivelesEscolaresPostModel:
+    in: body
+    name: body
+    description: Ejemplo de body para guardar un Nivel Escolar
+    required: true
+    schema:
+      $ref: "#/definitions/nivelesEscolaresPost"
+  nivelesEscolaresPutModel:
+    in: body
+    name: body
+    description: Ejemplo de body para actualizar un Nivel Escolar
+    required: true
+    schema:
+      $ref: "#/definitions/nivelesEscolaresPut"

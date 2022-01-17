@@ -1,0 +1,15 @@
+parameters:
+  departamentosPostModel:
+    in: body
+    name: body
+    description: Ejemplo de body para guardar un Departamento
+    required: true
+    schema:
+      $ref: "#/definitions/departamentosPost"
+  departamentosPutModel:
+    in: body
+    name: body
+    description: Ejemplo de body para actualizar un Departamento
+    required: true
+    schema:
+      $ref: "#/definitions/departamentosPut"

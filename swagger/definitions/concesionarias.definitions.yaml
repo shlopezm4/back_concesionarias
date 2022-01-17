@@ -1,0 +1,23 @@
+definitions:
+  concesionariasPost:
+    type: object
+    properties:
+      nombre:
+        type: string
+      direccion:
+        type: string
+      telefono_primario:
+        type: string
+      telefono_secundario:
+        type: string
+  concesionariasPut:
+    type: object
+    properties:
+      nombre:
+        type: string
+      direccion:
+        type: string
+      telefono_primario:
+        type: string
+      telefono_secundario:
+        type: string

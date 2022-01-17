@@ -1,0 +1,15 @@
+definitions:
+  tiposVehiculosPost:
+    type: object
+    properties:
+      nombre:
+        type: string
+      descripcion:
+        type: string
+  tiposVehiculosPut:
+    type: object
+    properties:
+      nombre:
+        type: string
+      descripcion:
+        type: string

@@ -1,0 +1,15 @@
+parameters:
+  concesionariasPostModel:
+    in: body
+    name: body
+    description: Ejemplo de body para guardar una Concesionaria
+    required: true
+    schema:
+      $ref: "#/definitions/concesionariasPost"
+  concesionariasPutModel:
+    in: body
+    name: body
+    description: Ejemplo de body para actualizar una Concesionaria
+    required: true
+    schema:
+      $ref: "#/definitions/concesionariasPut"

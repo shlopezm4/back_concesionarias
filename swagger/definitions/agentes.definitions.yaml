@@ -1,0 +1,73 @@
+definitions:
+  agentesPost:
+    type: object
+    properties:
+      primer_nombre:
+        type: string
+      segundo_nombre:
+        type: string
+      otros_nombres:
+        type: string
+      primer_apellido:
+        type: string
+      segundo_apellido:
+        type: string
+      otros_apellidos:
+        type: string
+      fecha_nacimiento:
+        type: string
+        format: date
+      edad:
+        type: integer
+        format: int32
+      cui:
+        type: string
+        max: 13
+      telefono_primario:
+        type: string
+        max: 15
+      telefono_secundario:
+        type: string
+        max: 13
+      id_concesionaria:
+        type: integer
+        format: int32
+      id_user:
+        type: integer
+        format: int32
+  agentesPut:
+    type: object
+    properties:
+      primer_nombre:
+        type: string
+      segundo_nombre:
+        type: string
+      otros_nombres:
+        type: string
+      primer_apellido:
+        type: string
+      segundo_apellido:
+        type: string
+      otros_apellidos:
+        type: string
+      fecha_nacimiento:
+        type: string
+        format: date
+      edad:
+        type: integer
+        format: int32
+      cui:
+        type: string
+        max: 13
+      telefono_primario:
+        type: string
+        max: 15
+      telefono_secundario:
+        type: string
+        max: 13
+      id_concesionaria:
+        type: integer
+        format: int32
+      id_user:
+        type: integer
+        format: int32

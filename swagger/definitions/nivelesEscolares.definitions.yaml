@@ -1,0 +1,15 @@
+definitions:
+  nivelesEscolaresPost:
+    type: object
+    properties:
+      nombre:
+        type: string
+      descripcion:
+        type: string
+  nivelesEscolaresPut:
+    type: object
+    properties:
+      nombre:
+        type: string
+      descripcion:
+        type: string

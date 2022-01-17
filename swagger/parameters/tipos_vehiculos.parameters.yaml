@@ -1,0 +1,17 @@
+parameters:
+  tiposVehiculosPostModel:
+    in: body
+    name: body
+    description: Ejemplo de body para guardar un tipo de vehiculo
+    required: true
+    schema:
+      $ref: "#/definitions/tiposVehiculosPost"
+  tiposVehiculosPutModel:
+    in: body
+    name: body
+    description: Ejemplo de body para actualizar un tipo de vehiculo
+    required: true
+    schema:
+      $ref: "#/definitions/tiposVehiculosPut"
+
+  

@@ -1,0 +1,15 @@
+definitions:
+  departamentosPost:
+    type: object
+    properties:
+      nombre:
+        type: string
+      descripcion:
+        type: string
+  departamentosPut:
+    type: object
+    properties:
+      nombre:
+        type: string
+      descripcion:
+        type: string

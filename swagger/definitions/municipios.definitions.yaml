@@ -1,0 +1,21 @@
+definitions:
+  municipiosPost:
+    type: object
+    properties:
+      nombre:
+        type: string
+      descripcion:
+        type: string
+      id_departamento:
+        type: integer
+        format: int32
+  municipiosPut:
+    type: object
+    properties:
+      nombre:
+        type: string
+      descripcion:
+        type: string
+      id_departamento:
+        type: integer
+        format: int32

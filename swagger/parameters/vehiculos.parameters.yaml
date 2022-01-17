@@ -1,0 +1,15 @@
+parameters:
+  vehiculosPostModel:
+    in: body
+    name: body
+    description: Ejemplo de body para guardar un vehiculo
+    required: true
+    schema:
+      $ref: "#/definitions/vehiculosPost"
+  vehiculosPutModel:
+    in: body
+    name: body
+    description: Ejemplo de body para actualizar un vehiculo
+    required: true
+    schema:
+      $ref: "#/definitions/vehiculosPut"

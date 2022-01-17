@@ -1,0 +1,15 @@
+parameters:
+  clientesPostModel:
+    in: body
+    name: body
+    description: Ejemplo de body para guardar un Cliente
+    required: true
+    schema:
+      $ref: "#/definitions/clientesPost"
+  clientesPutModel:
+    in: body
+    name: body
+    description: Ejemplo de body para actualizar un Cliente
+    required: true
+    schema:
+      $ref: "#/definitions/clientesPut"

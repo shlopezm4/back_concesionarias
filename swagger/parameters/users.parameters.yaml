@@ -1,0 +1,17 @@
+parameters:
+  logInPostModel:
+    in: body
+    name: body
+    description: Ejemplo de body para loggearse
+    required: true
+    schema:
+      $ref: "#/definitions/logInPost"
+  userPostModel:
+    in: body
+    name: body
+    description: Ejemplo de body para crear un usuario
+    required: true
+    schema:
+      $ref: "#/definitions/userPost"
+
+      

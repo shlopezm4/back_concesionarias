@@ -1,0 +1,17 @@
+parameters:
+  generosPostModel:
+    in: body
+    name: body
+    description: Ejemplo de body para guardar un genero
+    required: true
+    schema:
+      $ref: "#/definitions/generosPost"
+  generosPutModel:
+    in: body
+    name: body
+    description: Ejemplo de body para actualizar un genero
+    required: true
+    schema:
+      $ref: "#/definitions/generosPut"
+
+  

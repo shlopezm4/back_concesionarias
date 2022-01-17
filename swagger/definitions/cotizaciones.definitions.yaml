@@ -1,0 +1,53 @@
+definitions:
+  cotizacionesPost:
+    type: object
+    properties:
+      id_vehiculo:
+        type: integer
+        format: int32
+      id_cliente:
+        type: integer
+        format: int32
+      id_agente:
+        type: integer
+        format: int32
+      sub_total:
+        type: number
+      impuestos:
+        type: number
+      total:
+        type: number
+      descripcion:
+        type: string
+      fecha_emision:
+        type: string
+        format: date-time
+      fecha_vencimiento:
+        type: string
+        format: date-time
+  cotizacionesPut:
+    type: object
+    properties:
+      id_vehiculo:
+        type: integer
+        format: int32
+      id_cliente:
+        type: integer
+        format: int32
+      id_agente:
+        type: integer
+        format: int32
+      sub_total:
+        type: number
+      impuestos:
+        type: number
+      total:
+        type: number
+      descripcion:
+        type: string
+      fecha_emision:
+        type: string
+        format: date-time
+      fecha_vencimiento:
+        type: string
+        format: date-time

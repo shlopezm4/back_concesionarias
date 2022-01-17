@@ -1,0 +1,7 @@
+parameters:
+  idPath:
+    in: path
+    name: id
+    description: id del elemento
+    type: string
+    required: true

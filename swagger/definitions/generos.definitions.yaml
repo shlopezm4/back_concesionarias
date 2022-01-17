@@ -1,0 +1,15 @@
+definitions:
+  generosPost:
+    type: object
+    properties:
+      nombre:
+        type: string
+      descripcion:
+        type: string
+  generosPut:
+    type: object
+    properties:
+      nombre:
+        type: string
+      descripcion:
+        type: string

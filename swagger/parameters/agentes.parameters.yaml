@@ -1,0 +1,15 @@
+parameters:
+  agentesPostModel:
+    in: body
+    name: body
+    description: Ejemplo de body para guardar un Agente
+    required: true
+    schema:
+      $ref: "#/definitions/agentesPost"
+  agentesPutModel:
+    in: body
+    name: body
+    description: Ejemplo de body para actualizar un Agente
+    required: true
+    schema:
+      $ref: "#/definitions/agentesPut"

@@ -1,0 +1,15 @@
+parameters:
+  cotizacionesPostModel:
+    in: body
+    name: body
+    description: Ejemplo de body para guardar una cotización
+    required: true
+    schema:
+      $ref: "#/definitions/cotizacionesPost"
+  cotizacionesPutModel:
+    in: body
+    name: body
+    description: Ejemplo de body para actualizar una cotización
+    required: true
+    schema:
+      $ref: "#/definitions/cotizacionesPut"

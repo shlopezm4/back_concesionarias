@@ -1,0 +1,15 @@
+parameters:
+  municipiosPostModel:
+    in: body
+    name: body
+    description: Ejemplo de body para guardar un Municipio
+    required: true
+    schema:
+      $ref: "#/definitions/municipiosPost"
+  municipiosPutModel:
+    in: body
+    name: body
+    description: Ejemplo de body para actualizar un Municipio
+    required: true
+    schema:
+      $ref: "#/definitions/municipiosPut"

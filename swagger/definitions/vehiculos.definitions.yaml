@@ -1,0 +1,75 @@
+definitions:
+  vehiculosPost:
+    type: object
+    properties:
+      numero_placa:
+        type: string
+        max: 10
+      vin:
+        type: string
+        max: 17
+      id_tipo_vehiculo:
+        type: integer
+        format: int32
+      id_color:
+        type: integer
+        format: int32
+      velocidades:
+        type: integer
+        format: int32
+      pasajeros:
+        type: integer
+        format: int32
+      flag_aire_acondicionado:
+        type: boolean
+      numero_puertas:
+        type: integer
+        format: int32
+      numero_cilindros:
+        type: integer
+        format: int32
+      centimetros_cubicos:
+        type: integer
+        format: int32
+      caballos_fuerza:
+        type: integer
+        format: int32
+      precio_venta:
+        type: number
+  vehiculosPut:
+    type: object
+    properties:
+      numero_placa:
+        type: string
+        max: 10
+      vin:
+        type: string
+        max: 17
+      id_tipo_vehiculo:
+        type: integer
+        format: int32
+      id_color:
+        type: integer
+        format: int32
+      velocidades:
+        type: integer
+        format: int32
+      pasajeros:
+        type: integer
+        format: int32
+      flag_aire_acondicionado:
+        type: boolean
+      numero_puertas:
+        type: integer
+        format: int32
+      numero_cilindros:
+        type: integer
+        format: int32
+      centimetros_cubicos:
+        type: integer
+        format: int32
+      caballos_fuerza:
+        type: integer
+        format: int32
+      precio_venta:
+        type: number

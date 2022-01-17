@@ -1,0 +1,15 @@
+parameters:
+  authorizationHeader:
+    in: header
+    name: authorization
+    description: Authorization Header
+    required: true
+    type: string
+
+
+securityDefinitions:
+  Bearer:
+    type: apiKey
+    name: authorization
+    in: header
+    template: "Bearer {apiKey}"

@@ -1,0 +1,107 @@
+definitions:
+  clientesPost:
+    type: object
+    properties:
+      primer_nombre:
+        type: string
+      segundo_nombre:
+        type: string
+      otros_nombres:
+        type: string
+      primer_apellido:
+        type: string
+      segundo_apellido:
+        type: string
+      otros_apellidos:
+        type: string
+      fecha_nacimiento:
+        type: string
+        format: date-time
+      edad:
+        type: integer
+        format: int32
+      id_genero:
+        type: integer
+        format: int32
+      id_estado_civil:
+        type: integer
+        format: int32
+      id_nivel_escolar:
+        type: integer
+        format: int32
+      flag_trabaja:
+        type: boolean
+      id_ingreso_mensual:
+        type: integer
+        format: int32
+      cui:
+        type: string
+        max: 13
+      nit:
+        type: string
+        max: 10
+      telefono_primario:
+        type: string
+        max: 15
+      telefono_secundario:
+        type: string
+        max: 13
+      direccion:
+        type: string
+        max: 250
+      id_municipio:
+        type: integer
+        format: int32
+  clientesPut:
+    type: object
+    properties:
+      primer_nombre:
+        type: string
+      segundo_nombre:
+        type: string
+      otros_nombres:
+        type: string
+      primer_apellido:
+        type: string
+      segundo_apellido:
+        type: string
+      otros_apellidos:
+        type: string
+      fecha_nacimiento:
+        type: string
+        format: date-time
+      edad:
+        type: integer
+        format: int32
+      id_genero:
+        type: integer
+        format: int32
+      id_estado_civil:
+        type: integer
+        format: int32
+      id_nivel_escolar:
+        type: integer
+        format: int32
+      flag_trabaja:
+        type: boolean
+      id_ingreso_mensual:
+        type: integer
+        format: int32
+      cui:
+        type: string
+        max: 13
+      nit:
+        type: string
+        max: 10
+      telefono_primario:
+        type: string
+        max: 15
+      telefono_secundario:
+        type: string
+        max: 13
+      direccion:
+        type: string
+        max: 250
+      id_municipio:
+        type: integer
+        format: int32

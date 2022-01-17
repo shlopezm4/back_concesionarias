@@ -1,0 +1,15 @@
+parameters:
+  coloresPostModel:
+    in: body
+    name: body
+    description: Ejemplo de body para guardar un color
+    required: true
+    schema:
+      $ref: "#/definitions/coloresPost"
+  coloresPutModel:
+    in: body
+    name: body
+    description: Ejemplo de body para actualizar un color
+    required: true
+    schema:
+      $ref: "#/definitions/coloresPut"

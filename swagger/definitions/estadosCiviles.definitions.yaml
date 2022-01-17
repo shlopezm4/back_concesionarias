@@ -1,0 +1,15 @@
+definitions:
+  estadosCivilesPost:
+    type: object
+    properties:
+      nombre:
+        type: string
+      descripcion:
+        type: string
+  estadosCivilesPut:
+    type: object
+    properties:
+      nombre:
+        type: string
+      descripcion:
+        type: string

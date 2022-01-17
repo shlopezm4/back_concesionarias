@@ -1,0 +1,17 @@
+parameters:
+  estadosCivilesPostModel:
+    in: body
+    name: body
+    description: Ejemplo de body para guardar un Estado Civil
+    required: true
+    schema:
+      $ref: "#/definitions/estadosCivilesPost"
+  estadosCivilesPutModel:
+    in: body
+    name: body
+    description: Ejemplo de body para actualizar un Estado Civil
+    required: true
+    schema:
+      $ref: "#/definitions/estadosCivilesPut"
+
+  

@@ -1,0 +1,15 @@
+definitions:
+  ingresosMensualesPost:
+    type: object
+    properties:
+      nombre:
+        type: string
+      descripcion:
+        type: string
+  ingresosMensualesPut:
+    type: object
+    properties:
+      nombre:
+        type: string
+      descripcion:
+        type: string
